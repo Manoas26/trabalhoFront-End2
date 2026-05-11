@@ -1,0 +1,60 @@
+body {
+    display:flex;
+    flex-direction: column;
+    background-color: #031e49;
+    font-family: "roboto mono";
+    color: antiquewhite;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    margin-top: 18px;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: 14px;
+    background-color: #031e49;
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    margin-left:9vw;
+    margin-right:9vw;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 11px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    width: 60vw;
+}
+
+.i1 {
+    width: 45vw;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    min-width: 120px;
+}
+
+a {
+    color: #9F7E3B;
+}
