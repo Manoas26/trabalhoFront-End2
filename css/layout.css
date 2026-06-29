@@ -1,0 +1,46 @@
+/* Define o layout da página, a estrutura principal
+Também define header, nav, main, footer, etc 
+Este arquivo normalmente é único/específico de um projeto 
+e não é reutilizado (Exceto em sites com estrutura semelhante) */
+
+/* Topo fixado com sticky */
+.fixed {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}          
+header{
+    display:flex;
+    flex-direction: row;
+}
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    min-width: 120px;
+}
+
+nav {
+    display:flex;
+    background-color: var(--background-color);
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: 14px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+
+footer {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 11px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
