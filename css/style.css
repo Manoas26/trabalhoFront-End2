@@ -18,7 +18,7 @@ nav {
     position:fixed;
     justify-content: space-around;
     width: 100vw;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #031e49;
 }
 
@@ -57,4 +57,5 @@ img {
 
 a {
     color: #9F7E3B;
+    font-size:16px;
 }
