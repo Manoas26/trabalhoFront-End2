@@ -129,7 +129,6 @@ Os elementos dentro do card serão exibidos em uma coluna */
     }
 
 
-        @media (min-width: 500px) {
     .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -186,7 +185,6 @@ Os elementos dentro do card serão exibidos em uma coluna */
     object-fit: cover;
     background-position: top;
     }
-}
 
 .formulario {
 display: grid;
